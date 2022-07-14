@@ -1,0 +1,102 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: "Epilogue", sans-serif;
+  background-color: #fafafa;
+}
+
+.text-color {
+  color: #696969 !important;
+}
+
+h1 {
+  font-size: 4.3rem;
+}
+
+.button {
+  border-radius: 15px;
+  border: solid 1px #696969;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  border-color: black;
+  color: #141414 !important;
+}
+
+.button-color {
+  background-color: #141414;
+}
+
+li a:hover {
+  color: #141414 !important;
+}
+
+.move-position {
+  right: 15%;
+}
+
+.sideNav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  top: 0;
+  right: -300px;
+  background-color: #ffffff;
+  z-index: 1;
+  transition: 1s;
+}
+
+#close {
+  left: 85%;
+}
+@media (min-width: 992px) and (max-width: 1400px) {
+  .sideNav {
+    display: none !important ;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  .svg-img img {
+    width: 80px;
+  }
+  .sideNav-btn {
+    display: flex !important ;
+  }
+}
+@media (min-width: 375px) and (max-width: 768px) {
+  .div-order {
+    order: 1;
+  }
+  br {
+    display: none;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  .img-desktop img {
+    display: none;
+  }
+  .img-mobile {
+    display: block !important;
+  }
+  .text-align {
+    text-align: center;
+  }
+  .svg-img img {
+    width: 80px;
+    padding-top: 20px;
+  }
+  .sideNav-btn {
+    display: flex !important ;
+  }
+}
